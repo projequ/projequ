@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        'primary': '#DBFF60',
+        'secondary': '#193D5B',
+        'btn-primary': '#3576EC',
+        'auth-bg': '#F8F3FF',
+        'black': '#1f1f1f'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
