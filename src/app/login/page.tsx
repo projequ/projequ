@@ -15,7 +15,7 @@ export default function Home() {
         </a>
 
         <Image
-            width={0}
+            width={768}
             height={0} 
             className="max-w-4xl z-30 left-16 absolute md:block hidden"
             src="/login.png"

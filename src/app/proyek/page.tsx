@@ -8,10 +8,9 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import InfoIcon from '@mui/icons-material/Info';
 import { interested, proyeks } from "../../data";
 import { useState } from "react";
-import { ProyekItem } from "../../../interfaces/ProyekRelated";
 
 export default function Home() {
-  const [proyekSelected, setProyekSelected] = useState<ProyekItem>(proyeks[0])
+  const [proyekSelected, setProyekSelected] = useState<any>(proyeks[0])
 
   return (
     <main className="h-fit relative bg-[#F6F5F1] pb-20">

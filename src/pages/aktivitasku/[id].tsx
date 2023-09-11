@@ -37,7 +37,7 @@ export default function Home() {
                             <div className="flex flex-col gap-4 w-full px-6 py-8">
                                 <div className="flex flex-col gap-8 pb-6 md:h-full w-full items-center">
                                     <div className="flex flex-col gap-2 border-b-2 border-b-[#808080] h-full pb-6 items-center w-full">
-                                        <Image width={0} height={0} src="https://pbs.twimg.com/profile_images/1537677628039380992/i3uUfk-Z_400x400.jpg" alt="" className="w-24 md:w-20 md:h-20 rounded-lg mx-auto" />
+                                        <Image width={0} height={0} src="https://twitter.com/gustonecrush/photo" alt="" className="w-24 md:w-20 md:h-20 rounded-lg mx-auto" />
                                         <h1 className="font-semibold text-2xl text-center md:text-center">UI Designer, <br />Mental Health App</h1>
                                     </div>
 
